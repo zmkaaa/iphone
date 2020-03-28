@@ -1,0 +1,66 @@
+body{
+	width: 100%;
+    background: #F3F3F3;
+}
+header{
+	width: 100%;
+    height: 51px;
+    background: #FFF;
+    border-bottom: 1px solid #F3F3F3;
+    position: relative;
+    text-align: center;
+	position: fixed;
+	top: 0;    left: 0;
+}
+header img{
+    height: 15px;
+    position: absolute;
+    left: 15px; top: 20px;
+}
+header p{
+    font-size: 16px;
+    line-height: 51px;
+}
+
+.content{
+	height: 800px;
+	text-align: center;
+	margin-top: 51px;
+	background: #FFF;
+}
+.content span{
+	font-size: 12px;
+	color: #999999;
+}
+.content p{
+	font-size: 15px;
+	color: #999999;
+}
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 7%;
+	position: fixed;
+	bottom: 0;  left: 0;
+	background: #F4F4F4;
+}
+.i-box{
+	float: left;
+	width: 73%;
+	height: 68%;
+	margin-top: 9px;
+	margin-left: 6%;
+	background: #FFF;
+}
+.a-box{
+	float: left;
+	width: 21%;
+	margin-top: 3%;
+}
+.a-box a{
+	width: 34.5%;
+}

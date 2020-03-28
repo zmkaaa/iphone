@@ -1,0 +1,288 @@
+@charset "utf-8";
+body{
+	background: #EEEEEE;
+	font-family: "微软雅黑";
+}
+header{
+    width: 100%;
+    height: 10rem;
+    background-color:#DD3E34 ;  
+}
+.top{
+    padding:0.4rem 0.6rem 0 0.6rem;
+}
+.top span{
+    display: inline-block;
+   margin-top: .2rem;
+   color: #fff;
+   vertical-align:top;
+   font-size: .6rem;
+}
+.top h4{
+    font-size: .8rem;
+    color: #fff;
+    margin-left: 5rem;
+    font-weight: normal;
+}
+header .hea_topx {
+    
+    width: 4.075rem;
+    height: 4.075rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin:.9rem .6rem 0 .6rem;
+    position: relative;
+   
+   
+}
+.hea_topx img{
+    width: 3.55rem;
+    height: 3.55rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: .25rem;
+    margin-top: .25rem;
+    transform: rotate(0deg);
+    transform-origin: 20% 20%;
+    transition: 1s ease-in-out;
+
+}
+header .hea_topx img:hover{
+    transform: rotate(180deg);
+}
+header .hea_wz h5{
+    font-size: .7rem;
+    color: #fff;
+    position: absolute;
+    top: 4rem;
+    right: 4.65rem;
+    z-index: 2;
+
+}
+header .top_leidian{
+    position: absolute;
+    top: -3.4rem;
+    left: 0;
+}
+header .container{
+   z-index: 999;
+    width: 4.25rem;
+    height: 4.25rem;
+    position: relative;
+    
+}
+header .container{
+    width: 4.25rem;
+    height: 4.25rem;
+    position: relative;
+    margin: 1.25rem auto;
+}
+header .container .stormy{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    left: 2rem;
+    top: 1.75rem;
+    margin-left: -1.5rem;
+    background-color: #222;
+    border-radius: 50%;
+    box-shadow: #222 1.6rem -0.375rem 0 -0.125rem, #222 0.625rem -0.625rem, #222 0.75rem 0.25rem, #222 1.5rem 0.375rem 0 -0.25rem, #222 2.125rem 0.125rem 0 -0.125rem;
+    animation: stormy 4s ease-in-out infinite;
+}
+@keyframes stormy{
+    50%{
+        transform: translateY(-0.5rem);
+   }
+}
+header .container .stormy::before{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 1.425rem;
+    top: 1.75rem;
+    border-left: 0rem solid transparent;
+    border-right: 0.175rem solid transparent;
+    border-top: 1.075rem solid yellow;
+    box-shadow: yellow -0.175rem -0.8rem;
+    transform: rotate(14deg);
+    transform-origin: 50% -1.5rem;
+    animation: stormy_thunder 2s steps(1, end) infinite;
+}
+@keyframes stormy_thunder{
+    0%{
+        transform: rotate(20deg);
+        opacity: 1;
+   }
+    5%{
+        transform: rotate(-34deg);
+        opacity: 1;
+   }
+    10%{
+        transform: rotate(0deg);
+        opacity: 1;
+   }
+    15%{
+        transform: rotate(-34deg);
+        opacity: 0;
+   }
+}
+/* end */
+/* 悬浮块 */
+.con_xuanfu{
+    margin: 0 .6rem;
+}
+article{
+    margin-top: -2.05rem;
+    position: relative;
+    z-index: 99;
+    background-color: #fff;
+    width: 100%;
+    height: 4.9rem;
+    border-radius: 6px;
+}
+article p{
+    margin-top: .2rem;
+    font-size: .8rem;
+}
+article p:hover{
+    text-shadow: 0 0 10px #DD3E34;
+}
+.x_1,.x_2,.x_3{
+    margin-top: .7rem;
+    margin-left: 1.5rem;
+}
+.x_1 a,.x_2 a,.x_3 a{
+    color: #DD3E34;
+    font-size: 1rem;
+    margin-left: 1.3rem;
+    text-align: center;
+  
+}
+/* end */
+/* 中间菜单选项 */
+.menu{
+    margin: 0 .6rem;
+}
+section{
+    margin-top: .45rem;
+    height: 11.3rem;
+    background-color: #fff;
+    border-radius: 6px;
+}
+section li a{
+   margin-left: 2.35rem;
+    line-height: 2rem;
+    font-size: .7rem;
+    color: #000;
+}
+section li a:hover{
+    color: #DD3E34;
+}
+section .l{
+    width: 13rem;
+    height: 1px;
+    margin-left: .9rem;
+    text-align: center;
+    background-color: #E3E3E3;
+}
+section li .iconfont .icon-jiantou{
+   transform: rotate(180deg);
+  
+}
+section li span{
+    display: inline-block;
+    margin-left: -1.28rem;
+}
+
+/* end */
+/* 邀请 */
+.in_cu{
+    margin: 0 .6rem;
+}
+.in_cu .bg{
+    margin-top: .45rem;
+    height:4.6rem;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.in_cu .bg ul li a{
+    margin-left: 2.35rem;
+    line-height: 2rem;
+    font-size: .7rem;
+    color: #000;
+}
+.in_cu .bg ul li span{
+    margin-left: -1.28rem;
+}
+.in_cu .bg .l{
+    width: 13rem;
+    height: 1px;
+    margin-left: .9rem;
+    text-align: center;
+    background-color: #E3E3E3;
+}
+.in_cu .bg li a:hover{
+    color: #DD3E34;
+}
+
+
+
+
+/* end */
+/* 线 */
+.line{width: 100%; height: 2px;background-color: #E3E3E3; margin-top: 1rem; }
+/* end */
+/* 底部 */
+.footer{
+    margin: 0 .6rem;
+}
+footer{
+    margin-top: .4rem;
+    height: 2.5rem;
+}
+footer .f1{
+    margin-left: .5rem;
+    text-align: center;
+    height: 1.85rem;
+}
+footer .f2{
+    margin-right: .5rem;
+    text-align: center;
+    height: 1.85rem;
+
+    
+}
+footer .f3{
+    margin-left: .5rem;
+    text-align: center;
+    height: 1.85rem;
+}
+.f1 a,.f2 a{
+    margin-top: -0.5rem;
+    font-size: .7rem;
+    color: black;
+}
+.f3 a{
+    font-size: .7rem;
+}
+.active{
+    color: #DD3E34;
+}
+.f1 a:hover{
+    color: #DD3E34;
+}
+.f2 a:hover{
+    color: #DD3E34;
+}
+.f3 a:hover{
+    color: #DD3E34;
+}
+.f1:hover{
+    color: #DD3E34;
+}
+.f2:hover{
+    color: #DD3E34;
+}
+/* end */
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 移动端必须要写的 -->
+    <!-- <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0"> -->
+    <title>邀请有礼</title>
+   <link rel="stylesheet" href="css/common.css">   
+   <link rel="stylesheet" href="css/invite.css">   
+   <script src="js/jquery-1.8.3.js"></script>
+<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+    <header>
+        <a href="perso.html">
+            <img src="img/back.png">
+        </a>
+        <p>邀请有礼</p>
+    </header>
+    <div class="content">
+		<div class="tab">
+			<ul class="tab-hd">
+				<li class="active">邀请的达人</li>
+				<li>邀请的商家</li>
+			</ul>
+			<ul class="tab-bd">
+				<li class="thisclass">
+					<div class="list">
+						<ul>
+							<li>
+								<p>1</p><img src="img/tom.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>2</p><img src="img/jerrry.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>3</p><img src="img/tom.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>4</p><img src="img/jerrry.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>5</p><img src="img/tom.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>6</p><img src="img/jerrry.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>7</p><img src="img/tom.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>8</p><img src="img/jerrry.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>9</p><img src="img/tom.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>10</p><img src="img/jerrry.jpg"/><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>11</p><img src="img/tom.jpg"/><span>佣金 ¥100</span>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="list">
+						<ul>
+							<li>
+								<p>1</p><img src="img/i-cdw.jpg"/><font class="f">川岛屋</font><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>2</p><img src="img/i-m.jpg"/><font class="f">喵小姐工作室</font><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>3</p><img src="img/tom.jpg"/><font class="f">米黛妮店铺</font><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>4</p><img src="img/i-pc.jpg"/><font class="f">扑吃</font><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>5</p><img src="img/tom.jpg"/><font class="f">爱可贴</font><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>6</p><img src="img/jerrry.jpg"/><font class="f">香榭丽舍</font><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+							<li>
+								<p>7</p><img src="img/tom.jpg"/><font class="f">狄普旗舰店</font><span>佣金 ¥100</span>
+							</li>
+							<hr style="width: 92%;height: 0; border: 1px solid #EAEAEA;border-top: none;" />
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	    <script type="text/javascript">
+			$(function(){
+				function tabs(tabTit,on,tabCon){
+					$(tabTit).children().hover(function(){
+					    $(this).addClass(on).siblings().removeClass(on);
+					        var index = $(tabTit).children().index(this);
+					        $(tabCon).children().eq(index).show().siblings().hide();
+					    });
+					};
+					 tabs(".tab-hd","active",".tab-bd");
+			});
+	    </script>
+	</div>
+</body>
+</html>

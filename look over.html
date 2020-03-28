@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 安卓 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=“apple-mobile-web-app-title” content="无敌的移动端">
+    <link rel="apple-touch-icon-precomposed" href="">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <!-- ios -->
+    <meta name="apple-mobile-web-app-title" content="无敌的移动端">
+    <link rel="apple-touch-icon-precomposed" href=“img.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no" >
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/comment.css">
+    <link rel="stylesheet" href="font/font_f7xvlf6ynke/iconfont.css">
+   <link rel="stylesheet" href="font/font_nwrfkkahcyb/iconfont2.css">
+   <link rel="stylesheet" href="css/animate.min.css">
+   <link rel="stylesheet" href="css/look over.css">
+    <script>
+        window.onload = window.onresize = function(){		 
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            //找到标签名为html的第一个
+            var _html = document.getElementsByTagName('html')[0];
+            //如果屏幕宽度大于640 
+            //就用 640/16=40
+            //小于640的时候 不确定 也是尺寸/40
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+            //最大网页尺寸640 
+            //最大字体（根字体大小） 40
+        }
+    </script>
+
+<title>小程序</title>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="le fl">
+            <a href="detail.html"><span class="iconfont icon-jiantou" style="color: black; font-size: .7rem;"></span></a>
+        </div>
+        <div class="ri fl">
+            <h4 class="animated bounce">报名用户</h4>
+        </div>
+    </header>
+    <div class="line"></div>
+    <!--end  -->
+    <!-- 大tupian -->
+    <main style="margin-top: 2rem;">
+        <p style="margin-bottom:2.5rem;">126位参赛者</p>
+        <div class="htmleaf-container">
+		
+            <main class="htmleaf-content">
+                <ul class='-center' style="margin-left: 3rem;">
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-angus.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Angus Young
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-aurora.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Aurora
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-bride.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Bride of Frankenstein
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-d.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Dracula
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-dali.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Salvador Dalí
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-huitzi.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Ilhuicatl Xoxouhqui
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-man.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          L'Homme qui rit
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v2.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization II
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v3.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization III
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-worms.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Zombie
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-xrays.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          X-Rays
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-angus.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Angus Young
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-aurora.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Aurora
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-bride.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Bride of Frankenstein
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-d.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Dracula
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-dali.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Salvador Dalí
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-huitzi.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Ilhuicatl Xoxouhqui
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-man.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          L'Homme qui rit
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v2.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization II
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v3.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization III
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-worms.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Zombie
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-xrays.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          X-Rays
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class='w'>
+                      <div class='f'>
+                        <svg viewBox='0 0 180 180'>
+                          <image height='100%' preserveAspectRatio='xMidYMid slice' width='100%' xlink:href='img/i-v.png'></image>
+                        </svg>
+                      </div>
+                      <div class='b'>
+                        <h3>
+                          Visualization
+                        </h3>
+                      </div>
+                    </div>
+                  </li>
+                  
+                </ul>
+            </main>
+        </div>
+    </main>
+    <!-- end -->
+   
+    
+
+    
+</body>
+<script src="js/main.js"></script>
+</html>

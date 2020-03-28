@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小程序</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/incode2.css">
+    <link rel="stylesheet" href="font/font_pc188/iconfont.css">
+    <link rel="stylesheet" href="css/yqm-hby.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="font/font_f7xvlf6ynke/iconfont.css">
+    <script>
+        window.onload = window.onresize = function(){		 
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            //找到标签名为html的第一个
+            var _html = document.getElementsByTagName('html')[0];
+            //如果屏幕宽度大于640 
+            //就用 640/16=40
+            //小于640的时候 不确定 也是尺寸/40
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+            //最大网页尺寸640 
+            //最大字体（根字体大小） 40
+        }
+    </script>
+</head>
+<body>
+    <div id="petalbox">
+    </div>
+    <main>
+    <div class="box">
+        <div class="top_le">
+            <a href="incode2.html"><span class="iconfont icon-jiantou" style="color: #fff;"></span></a>
+        </div>
+        <div class="box_man">
+        <h4 class=" animated fadeInUp">群量--视频带货对接平台</h4>
+        <p class="p  animated fadeInUp">辅助电商卖家在抖音推广的平台</p>
+        <p class="p3 animated flash">7092</p>
+        <p class="p1  animated lightSpeedIn"><a href="incode.html" class=""> 我的专属邀请码</a></p>
+        <div class="yuan fr">
+            <div class="tuyuan fl">
+               <p style="text-align: center;"> <a href="incode.html" class="animate-bounce-up">长按识别小程序码立即注册</a></p>
+            </div>
+            <div class="m fr">
+                <img src="images/ma.png" alt="">
+            </div>
+        </div>
+        <div class="h">
+            
+        </div>
+    </div>
+    
+</div>
+<footer>
+    <img src="images/footer.png" alt="">
+</footer>
+</main>
+</body>
+<script src="js/hb.js"></script>
+</html>

@@ -1,0 +1,335 @@
+/*head部分*/
+.head{ 
+    width: 100%;
+    height: 2.55rem;
+    background: #FFFFFF;
+    position: relative;
+}
+.head a{
+    
+    color: black;
+    float: left;
+    padding: .35rem 0 0 .6rem ;
+}
+.head p{
+    font-size: .75rem;
+    line-height: 2.55rem;
+    padding-left: 38%;
+    font-weight: bold;
+}
+
+
+/*content部分*/
+.content{
+    width: 100%;
+    height: 99.2rem;
+    background: #ccc;
+}
+.content .ctn1{
+    width: 100%;
+    height: 20.1rem;
+    background: white;
+    margin-bottom: .575rem;
+}
+.content .ctn1 .top{
+    width: 100%;
+    height: 17.525rem;
+}
+.content .ctn1 .top .img{
+    width: 100%;
+    height: 11.625rem;
+    margin-bottom: .875rem;
+}
+.content .ctn1 .top .img img{
+    width: 100%;
+    height: 11.625rem;
+}
+.content .ctn1 .top p{
+    font-size: .9rem;
+    color: #333333;
+    padding-left: .75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.content .ctn1 .top span{
+    font-size: .6rem;
+    color: #666666;
+    margin-bottom: .9rem;
+    padding-left: .75rem;
+}
+.content .ctn1 .fot span{
+    width: 1.8rem;
+    height: 1.8rem;
+    display: inline-block;
+    border: 2px solid #DBDBDB;
+    border-radius: 50%;
+    color: orange;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 1.05rem;
+    background: #FAFEF9;
+    margin-top: .35rem;
+    margin-left: .675rem;
+}
+
+.content .ctn1 .fot i,.content .ctn1 .fot em{
+    font-size: .65rem;
+    color: #888888;
+    font-style: normal;
+}
+.content .ctn1 .fot em{
+    float: right;
+    padding-right: .925rem;
+    padding-top: 1rem;
+}
+.content .ctn1 .fot i{
+  
+    padding-bottom: 1rem;
+}
+.content .ctn1 .fot span img{
+    margin-top: 6px;
+    width: 76%;
+    height: 76%;
+}
+
+
+
+.content .ctn2{
+    width: 100%;
+    height: 8.275rem;
+    background: white;
+    margin-bottom: .45rem;
+}
+.content .ctn2 h2,.content .ctn4 h2,.content .ctn5 h2{
+    font-size: .8rem;
+    margin-left: .75rem;
+    padding-top: 1.15rem;
+    margin-bottom: 1.25rem;
+}
+.content .ctn2 h2 img,.content .ctn4 h2 img,.content .ctn5 h2 img{
+    width: .2rem;
+    height: .85rem;
+    margin-right: .125rem;
+    padding-top: .15rem;
+}
+.content .ctn2 ul{
+    width: 100%;
+    height: 5rem;
+   
+}
+.content .ctn2 ul li{
+    float: left;
+    font-size: .65rem;
+    margin-bottom: .825rem;
+}
+
+
+.content .ctn3{
+    width: 100%;
+    height: 3.25rem;
+    background: #FFF6E5;
+    color: #593A00;
+    font-size: .65rem;
+    line-height: 1.05rem;
+    padding-top: .675rem;
+    margin-bottom: .525rem;
+}
+
+.content .ctn4{
+    width: 100%;
+    height: 11.45rem;
+    background: white;
+    margin-bottom: .5rem;
+}
+.content .ctn4 p{
+    font-size: .65rem;
+    line-height: 1rem;
+    padding-left: 1.075rem;
+}
+
+.content .ctn5{
+    width: 100%;
+    height: 36.9rem;
+    background: white;
+    margin-bottom: .55rem;
+}
+.content .ctn5 .img{
+    width: 100%;
+    height: 15.7rem;
+}
+.content .ctn5 .img img{
+    width: 100%;
+    height: 15.7rem;
+}
+.content .ctn5 p{
+    font-size: .75rem;
+    line-height: 1.2rem;
+    padding-left: 1rem;
+}
+.content .ctn5 .link{
+    height: 9.05rem;
+    border: 2px solid #FFC9C6;
+    background: #FFFAFA;
+    border-radius: .5rem;
+    margin-left: .825rem;
+    margin-right: .85rem;
+    position: relative;
+    margin-top: .4rem;
+}
+.content .ctn5 .link h5{
+    font-size: .9rem;
+    text-align: center;
+    margin-bottom: .825rem;
+    margin-top: 1.125rem;
+}
+.content .ctn5 .link p{
+    font-size: .55rem;
+    text-align: center;
+}
+.content .ctn5 .link form{
+    margin-top: 6px;
+}
+.content .ctn5 .link input{
+    margin-top: 6px;
+    width: 10rem;
+    height: 2.075rem;
+    background: red;
+    color: white;
+    font-size: .75rem;
+    line-height: 2.075rem;
+    border-radius: .95rem;
+    position: absolute;
+    left: 17%;bottom: .75rem;
+}
+.content .ctn6{
+    width: 100%;
+    height: 15.3rem;
+    background: white;
+    margin-bottom: .45rem;
+}
+.content .ctn6 h5{
+    font-size: .65rem;
+    text-align: center;
+    padding-top: 1.475rem;
+    margin-bottom: .95rem;
+}
+.content .ctn6 p{
+    font-size: .6rem;
+    line-height: 1.25rem;
+    padding-left: 1rem;
+}
+
+
+/*footer部分*/
+.footer{
+    width: 100%;
+    height: 18.625rem;
+    margin-top: .5rem;
+    position: relative;
+}
+.footer .f1{
+    width: 6.625rem;
+    height: 6.625rem;
+    background: linear-gradient(to bottom,#FF9C3C,#FE843A,#FF623A);
+    border-radius: 50%;
+    border: .5rem solid #FFE6CE;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1.75rem;
+    font-size: 1.1rem;
+    color: white;
+    text-align: center;
+    line-height: 6.625rem;
+}
+
+.footer .f2{
+    width: 100%;
+    height: 3.4rem;
+    position: absolute;
+    left:0;bottom: 5.175rem;
+    font-size: .6rem;
+}
+.footer .f2 a:hover{
+    color: #FF623A;
+    text-decoration:underline;
+}
+.footer .f2 p{
+   margin-left: 31%;
+}
+.footer .f2 .img{
+   margin-left: 15%;
+   margin-right: 10%;
+}
+.footer .f2 .img img{
+    width: 1.725rem;
+    height: 1.725rem;
+    margin-top: 1.05rem;
+    border-radius: .375rem;
+    margin-right: .125rem;
+}
+
+
+.footer .f3{
+    width: 100%;
+    height: 2.425rem;
+    background: red;
+    position: absolute;
+    left: 0;bottom: 0;
+}
+.footer .f3 a{
+    color: white;
+    font-size: .8rem;
+    line-height: 2.425rem;
+    padding-left: 40%;
+}
+
+
+
+/*弹窗*/
+.login, .sucess{
+    width: 90%;
+    height: 9.75rem;
+    background: lavenderblush;
+    border-radius: .65rem;
+    position: absolute;
+    left: 1.25rem;top: 9.175rem;
+    display: none;
+}
+.login p, .sucess p{
+    font-size: .825rem;
+    font-weight: bold;
+    padding-top: 1.85rem;
+    margin-bottom: 1.5rem;
+   text-align: center;
+}
+.login span{
+    font-size: .75rem;
+    color: #666666;
+    padding-left: 2.475rem;
+}
+.sucess span{
+    font-size: .75rem;
+    color: #666666;
+    padding-left: 17%;
+}
+.login .xuan, .sucess .xuan{
+    width: 100%;
+    height: 2.725rem;
+    background: lightcoral;
+    border-top: 2px solid #ccc;
+    margin-top: 1.5rem;
+}
+.login .xuan input {
+    width: 50%;
+    height: 2.725rem;
+    background: lavender;
+    font-size: .7rem;
+    color: black;
+    float: left;
+}
+.sucess .xuan input{
+    width: 100%;
+    height: 2.725rem;
+    background: lavender;
+    font-size: .7rem;
+}

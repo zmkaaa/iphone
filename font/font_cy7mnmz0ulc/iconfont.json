@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1412192",
+      "name": "金币获取记录",
+      "font_class": "jinbihuoqujilu",
+      "unicode": "e7fa",
+      "unicode_decimal": 59386
+    },
+    {
+      "icon_id": "7080713",
+      "name": "提现记录",
+      "font_class": "tixianjilu",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    }
+  ]
+}

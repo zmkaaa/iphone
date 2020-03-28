@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="yuandian" unicode="&#58929;" d="M512-128a512 512 0 1 0 512 512 512 512 0 0 0-512-512zM512 839.111111a455.111111 455.111111 0 1 1 455.111111-455.111111 455.111111 455.111111 0 0 1-455.111111 455.111111z m0-739.555555a284.444444 284.444444 0 1 0 284.444444 284.444444 284.444444 284.444444 0 0 0-284.444444-284.444444z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

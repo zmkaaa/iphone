@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 移动端必须要写的 -->
+    <!-- <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0"> -->
+    <title>我的推广订单</title>
+   <link rel="stylesheet" href="css/common.css">   
+   <link rel="stylesheet" href="css/order.css">   
+   <script src="js/jquery-1.8.3.js"></script>
+<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+    <header>
+        <a href="perso.html">
+            <img src="img/back.png">
+        </a>
+        <p>我的推广订单</p>
+    </header>
+    <div class="tab">
+        <ul class="tab-hd">
+            <li class="active">全部</li>
+            <li>进行中</li>
+            <li>已完成</li>
+            <li>申请失败</li>
+        </ul>
+        <ul class="tab-bd">
+            <li class="thisclass">
+                <div class="list" style="margin-bottom: 200px;">
+                    <ul>
+                        <li>
+                            <a href="underway.html"><p>卡尔适大理石茶几电视柜组合小户型实木茶几地柜组合</p><span>已审核成功，请等待卖家发货，有疑问可联系卖家。</span></a>     
+                        </li>
+                        <li>
+                            <a href="#"><p>简约生活大束款天然兔尾草干花花束 田园真花风干花束永生花花艺</p><span>申请审核中，请耐心等候</span></a>      
+                        </li>
+                        <li>
+                            <a href="#"><p>1.8米1.5双人婚床日式布艺软包现代简洁毛毯</p><span>申请失败，请再接再厉</span></a> 
+                        </li>
+                        <li>
+                            <a href="#"><p>真皮情侣棉拖鞋女冬季室内保暖居家防滑黑白皮拖家具厚底一对男潮</p><span>已完成</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="underway.html"><p>卡尔适大理石茶几电视柜组合小户型实木茶几地柜组合</p><span>已审核成功，请等待卖家发货，有疑问可联系卖家。</span></a>  
+                        </li>
+                        <li>
+                            <a href="#"><p>简约生活大束款天然兔尾草干花花束 田园真花风干花束永生花花艺</p><span>申请审核中，请耐心等候</span></a>  
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="#"><p>真皮情侣棉拖鞋女冬季室内保暖居家防滑黑白皮拖家具厚底一对男潮</p><span>已完成</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="#"><p>1.8米1.5双人婚床日式布艺软包现代简洁毛毯</p><span>申请失败，请再接再厉</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+</div>
+<script type="text/javascript">
+$(function(){
+    function tabs(tabTit,on,tabCon){
+        $(tabTit).children().hover(function(){
+            $(this).addClass(on).siblings().removeClass(on);
+            var index = $(tabTit).children().index(this);
+               $(tabCon).children().eq(index).show().siblings().hide();
+        });
+    };
+    tabs(".tab-hd","active",".tab-bd");
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的抖音号</title>
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="./css/my douyin.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="css/area.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" />
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="font/font_f7xvlf6ynke/iconfont.css">
+    <link rel="stylesheet" href="syalert/syalert.min.css" />
+    <script src="syalert/syalert.min.js"></script>
+    
+    <script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        var _html = document.getElementsByTagName('html')[0];
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+    }
+</script>
+    
+</head>
+<body>
+       <!--头部-->
+       <div class="header">
+        <span><a href="perso.html"><span class="iconfont icon-jiantou" style="margin-top: -6px;"></span></a></span>
+        <p>我的抖音号</p>
+        <div class="menu fr">
+            <div class="dian fl">
+                <img src="./img/dian.png" alt="">
+            </div>
+            <span class="fl"></span>
+            <div class="yuan fl">
+                <img src="./img/yuan.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--内容-->
+    <div class="content">
+        <div class="top">
+            <p>
+                <span class="fl">抖音账户：</span>
+                <em class="fr">葛小伦</em>
+            </p>
+            <p>
+                <span class="fl">抖音名称：</span>
+                <em class="fr">Gexiaolun</em>
+            </p>
+            <p>
+                <span class="fl">粉丝数量：</span>
+                <em class="fr">10000W</em>
+            </p>
+            <p>
+                <span class="fl">抖音链接：</span>
+                <a class="fr" href="https://org.modao.cc/ app/ hgaoi1o8hp">
+                    https://org.modao.cc/ app/ hgaoi1o8hpek1
+                   
+              
+                </a>
+            </p>
+        </div>
+        <div class="conter">
+            <h4>
+                属性：
+            </h4>
+            <ul class="clearfix">
+                <li>美食</li>
+                <li>居家用品</li>
+                <li>美妆</li>
+                <li>种草带货</li>
+                <li>真人出镜</li>
+                <li>剧情</li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <h4>
+                账户简介：
+            </h4>
+            <p>
+                粉赞比排名靠前的大多是娱乐明星以及媒体、平台的官方账号，例如「新华网」「抖音小助手」。而除去这些账号，粉赞比高于平均值的主要为知识类、才艺类和剧情类。
+
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </div>
+    <!--页脚-->
+    <input type="text"  value="新增抖音号"  onClick="syalert.syopen('alert4')" class="footer">
+    <div class="sy-alert sy-alert-model animated" sy-enter="zoomIn" sy-leave="zoomOut" sy-type="confirm" sy-mask="true" id="alert4">
+        <div class="sy-title" >新增抖音</div>
+        <div class="sy-content">
+          <div class="form">
+          <p class="input-item"><input type="text" placeholder="请输入手机号" /></p>
+          <p class="input-item"><input type="text" placeholder="请输入验证码" /><button class="getcode">获取验证码</button></p>
+          <p class="input-item"><input type="text" placeholder="请输入邮箱" /></p>
+          <p class="input-item"><input type="text" placeholder="请输入地址" /></p>
+          <p class="input-item"><input type="text" placeholder="请输入QQ" /></p>
+          <p class="input-item"><input type="text" placeholder="请输入传真" /></p>
+          </div>
+        </div> 
+        <div class="sy-btn">
+          <button onClick="syalert.syhide('alert4')">取消</button>
+          <button onClick="ok('alert4')">确定</button>
+        </div> 
+      </div>
+    
+    
+<script src="./js/my douyin.js"></script>
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/area.js"></script>
+<script>
+    function ok(id){
+	syalert.syhide(id);	
+}
+    $(function(){
+        $('#getArea').getArea({
+            defaultArea: [18, 2, 3],
+            inpEle: '#getArea',
+            normalArea: true
+        });
+    })
+</script>
+</body>
+</html>

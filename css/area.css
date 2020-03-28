@@ -1,0 +1,33 @@
+/* 遮罩层 */
+.area-larger-mask{position:fixed;top:0;left:0;height: 100%;width:100%;font-size:10px;background-color: rgba(0,0,0,0.4);display:none;z-index:9000;}
+/* 弹窗 */
+.area-larger-main{width:100%;height:auto;background-color: #ffffff;position:absolute;bottom: 0;left:0;}
+/* 弹窗头部 */
+.area-control{width:100%;height:45px;line-height: 45px;border-bottom: 1px solid #dcdcdc;padding: 0 4%;}
+    .area-control>div{float: left;font-size: 16px;}
+    /* 取消 */
+    .cancel-area-control{width: 20%;}
+    /* 确定 */
+    .confirm-area-control{width: 20%;color: #1e83d3;text-align: right;}
+    /* title */
+    .title-area-control{width: 52%;text-align: center;}
+/* 弹窗主体 */
+.area-main{position: relative;}
+    /* 地区列表 */
+    .area-list-scroll{width:100%;height:200px;overflow: hidden;}
+    .area-list-scroll:after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height:40px;
+        top: 80px;
+        left:0;
+        border-top: #dcdcdc solid 1px;
+        border-bottom: #dcdcdc solid 1px;
+    }
+    /* 三级列表 */
+    .area-item{z-index:9010;width: 33.33333%;height:auto;float: left;margin-top: 80px;transform: translate3d(0px,0px,0px);transition-duration: 200ms;position:relative;}
+    .area-item>div{width:100%;position: absolute;top:0;left:0;}
+    .area-item>div>div{width: 100%; height: 40px;line-height: 40px;text-align: center;font-size: 15px;}
+    /*渐变隐藏*/
+    .area-list-scroll:before{pointer-events: none;content:'';z-index: 9011; width: 100%;height: 100%;position: absolute;top:0;left:0; background: linear-gradient(to top, rgba(255, 255, 255, .6), rgba(255,255,255,0), rgba(255, 255, 255, .6));}

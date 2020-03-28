@@ -1,0 +1,135 @@
+@charset "utf-8";
+ body{
+    background: #F3F3F3;
+ }
+.header{
+    width: 100%;
+    height: 2.55rem;
+    border-bottom: 2px solid #F3F3F3;
+    position: relative;
+    background: #fff;
+}
+
+.header>span{
+    width: 2rem;
+    height: 2.55rem;
+    line-height: 2rem;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header>p{
+    height: 2.55rem;
+    line-height: 2.55rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -2rem;
+    font-size: .85rem;
+}
+.header .menu{
+    width: 3.9rem;
+    height: 1.4rem;
+    border: .05rem solid #D7D7D7;
+    border-radius: .75rem;
+    position: absolute;
+    right: .5rem;
+    top: 50%;
+    margin-top: -.7rem;
+}
+
+.header .menu div img{
+    vertical-align: middle;
+    height: 100%;
+}
+.header .menu .dian{
+    width: 2.05rem;
+    height: 80%;
+    text-align: center;
+}
+.header .menu .yuan{
+    width: 1.7rem;
+    height: 80%;
+    text-align: center;
+}
+.header .menu span{
+    width: .05rem;
+    height: .9rem;
+    background: #BBBBBB;
+    margin-top: .25rem;
+}
+.content{
+    width: 100%;
+    padding: 0 .7rem;
+    box-sizing: border-box;
+    background: #fff;
+    font-weight: normal;
+}
+.content .top{
+    border-bottom: .05rem solid #E3E3E3;
+}
+.content .top p{
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .75rem;
+    border-top: .05rem solid #E3E3E3;
+}
+.content .top p:nth-child(1){
+    border: none;
+}
+.content .top p em{
+    font-size: .7rem;
+    max-width: 10.5rem;
+}
+.content .top p a{
+    font-size: .5rem;
+    line-height: .9rem;
+    max-width: 10.5rem;
+    color: black;
+    text-align: left;
+}
+.content .conter{
+    padding: .875rem 0;
+    border-bottom: .05rem solid #E3E3E3;
+}
+.content .conter h4{
+    font-size: .75rem;
+}
+.content .conter li{
+    text-align: center;
+    color: #ffffff;
+    width: 4.3rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    background: #DD3E34;
+    border-radius: .1rem;
+    float: left;
+    margin-right: .5rem;
+    margin-top: .625rem;
+    font-size: .65rem;
+}
+.content .bottom{
+padding: 1.175rem 0 2rem 0;
+}
+.content .bottom h4{
+    font-size: .75rem;
+    margin-bottom: .75rem;
+}
+.content .bottom p{
+    font-size: .65rem;
+    line-height: 1.1rem;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+    text-align: center;
+    background: #DD3E34;
+    color: #ffffff;
+    font-size: .75rem;
+}

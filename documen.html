@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小程序</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/document.css">
+    <link rel="stylesheet" href="font/font_pc163vieres/iconfont.css">
+    <link rel="stylesheet" href="font/font_cy7mnmz0ulc/iconfont.css">
+    <link rel="stylesheet" href="font/font_f7xvlf6ynke/iconfont.css">
+    <script>
+        window.onload = window.onresize = function(){		 
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            //找到标签名为html的第一个
+            var _html = document.getElementsByTagName('html')[0];
+            //如果屏幕宽度大于640 
+            //就用 640/16=40
+            //小于640的时候 不确定 也是尺寸/40
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+            //最大网页尺寸640 
+            //最大字体（根字体大小） 40
+        }
+    </script>
+</head>
+<body>
+    <!-- 大盒子 -->
+    <div class="box">
+        <!-- 头部 -->
+        <div class="top">
+           <a href="perso.html"><span class="iconfont icon-jiantou"></span></a> 
+            <p>我的余额</p>
+            <h4>￥130
+                <span class="odd">
+                    <a href="document2.html">提现</a>
+                 </span>
+            </h4>  
+        </div>
+        <!-- end -->
+        <div class="bt">
+            <div class="onclick" id="onclick">
+                <ol id="on_ol">
+                    <li class="active">
+                        <span class="iconfont icon-jinbihuoqujilu"></span>
+                        <p>获取记录</p>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-tixianjilu"></span>
+                    <p>提现记录</p>
+                    </li>
+                </ol>
+            </div>
+        <div class="bottom" id="bottom">
+            <ul id="btul">
+                <li class="show">
+                    <div>佣金<p>2019-06-01</p><span>+30</span></div>
+                    <div>视屏制作费<p>2019-06-01</p><span>+200</span></div>
+                    <div>佣金<p>2019-06-01</p><span>+200</span></div>
+                    <div>邀请有礼<p>2019-06-01</p><span>+200</span></div>
+                    <div>佣金<p>2019-06-01</p><span>+30</span></div>
+                    <div>手工费费<p>2019-06-01</p><span>+200</span></div>
+                    <div>佣金<p>2019-06-01</p><span>+200</span></div>
+                    <div>餐饮费<p>2019-06-01</p><span>+200</span></div>
+                </li>
+                <li>
+                    <div>提现<p>2019-06-01</p><span>-1000</span></div>
+                    <div>提现<p>2019-06-01</p><span>-100</span></div>
+                    <div>提现<p>2019-06-01</p><span>-100</span></div>
+                    <div>提现<p>2019-06-01</p><span>-100</span></div>
+                    <div>提现<p>2019-06-01</p><span>+100</span></div>
+                    <div>提现<p>2019-06-01</p><span>+100</span></div>
+                    <div>提现<p>2019-06-01</p><span>+100</span></div>
+                    <div>提现<p>2019-06-01</p><span>+100</span></div>
+                </li>             
+            </ul>
+        </div>
+    </div>
+      
+    </div>
+   
+    <script src="js/document.js"></script>
+</body>
+</html>

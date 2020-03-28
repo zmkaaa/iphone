@@ -1,0 +1,63 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    width: 100%;
+    height: 2.55rem;
+    margin-top: .75rem;
+    border-bottom: 1px solid #999999;
+}
+.top h5{
+    font-size: .75rem;
+    margin-left: .7rem;
+    float: left;
+}
+.top .p1{
+    font-family: "微软雅黑";
+    font-size: .9rem;
+    float: left;
+    margin-left: 6.875rem;
+}
+.box .p2{
+    font-family: "微软雅黑";
+    font-size: .7rem;
+    height: 3.25rem;
+    line-height: 3.25rem;
+    margin-left: .825rem;
+    float: left;
+    margin-top: .25rem;
+}
+.a{
+    width: 4.9rem;
+    height: 1.6rem;
+    font-size: .6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    float: right;
+    margin-top: 1.025rem;
+    border:1px solid red;
+    color: red;
+}
+.box span{
+    font-family: "微软雅黑";
+    font-size: .7rem;
+    height: 3.25rem;
+    line-height: 3.25rem;
+    float: left;
+    margin-left: -3rem;
+    margin-top: 3rem;
+    float: left;
+}
+.box .b{
+    margin-top: 1.025rem;
+    height: 1.4rem;
+}
+.box .c{
+    width: 100%;
+    background-color: #DD3E34;
+    color:#fff;
+    outline: none;
+    margin-top: 1rem;
+}

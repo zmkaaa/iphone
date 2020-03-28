@@ -1,0 +1,118 @@
+@charset "utf-8";
+.box{
+    width: 100%;
+    height:29.475rem;
+    margin: 0 auto;
+    background-image:linear-gradient(to bottom,#EA675D,#DE4138);
+    border-top: 1px solid #DF4239;
+    position: relative;
+}
+.box .box_man{
+    padding: 0 1.3rem;
+    position: relative;
+}
+.box .top_le{
+    padding: 0 .6rem;
+}
+.box h4{
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 3.525rem;
+}
+.box .p{
+    margin-top: 4px;
+    font-size: .6rem;
+    color: #fff;
+    
+}
+.box .p1 {
+    font-size: .65rem;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 3.7rem;
+    
+}
+.box .p1 a{
+    color: #fff;
+    transform: scale(1);
+}
+.box .p3{
+    position: absolute;
+    top:3.5rem;
+    left: 34%;
+    font-size: 2.2rem;
+    color: #fff;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+.box .p1 a:hover{
+    transform: scale(1.2);
+    color: #000;
+    text-decoration:underline;
+}
+.box_man .yuan{
+    margin-top: 9.55rem;
+    width: 100%;
+    height: 5.475rem;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+}
+.box_man .yuan .tuyuan{
+    position: absolute;
+    left:.6rem ;
+    bottom: 1rem;
+    width: 60%;
+    height: 1.8rem;
+    background-color: #DD3E34;
+    border-radius: 1rem;
+}
+.box_man .yuan .tuyuan a{
+    display: inline-block;
+    font-size: .4rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8rem;
+   
+}
+.box_man .yuan .tuyuan a:hover{
+    color: #000;
+    text-decoration:underline;
+}
+.box_man .yuan .m{
+    width: 30%;
+    height:90%;
+    margin-top: 10px;
+}
+.box_man .yuan .m img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes bounce-up {  
+    25% {  
+        transform: translateY(2px);  
+    }  
+    50%, 100% {  
+        transform: translateY(0);  
+    }  
+    75% {  
+        transform: translateY(-2px);  
+    }  
+}  
+   
+.animate-bounce-up{  
+    -webkit-animation: bounce-up 1.4s linear infinite;  
+    animation: bounce-up 1.4s ease-in infinite;  
+}
+footer{
+    width: 100%;
+    height: 5rem;
+}
+footer img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+

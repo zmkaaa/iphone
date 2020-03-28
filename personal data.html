@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人资料</title>
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/personal data.css">
+	<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        var _html = document.getElementsByTagName('html')[0];
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+    }
+</script>
+    
+</head>
+<body>
+    <!--头部-->
+    <div class="header">
+        <span> <a href="perso.html">&lt;</a></span>
+        <p id="p">个人资料</p>
+        <div class="menu fr">
+            <div class="dian fl">
+                <img src="./img/dian.png" alt="">
+            </div>
+            <span class="fl"></span>
+            <div class="yuan fl">
+                <img src="./img/yuan.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--内容-->
+    <div class="content show" id="content1">
+        <p>
+            <span class="fl">微信号：</span>
+            <em class="fr">Gexiaolun</em>
+        </p>
+        <p>
+            <span class="fl">手机号：</span>
+            <em class="fr" id="em">13800138000 &gt;</em>
+        </p>
+    </div>
+    <!--修改手机-->
+    <div class="content" id="content2">
+        <div class="top">
+            <p>
+                <span class="fl">手机号码：</span>
+                <input type="text" value=" 输入有效手机号">
+                <a href="###" class="fr" style="width: 25%; margin-left: 1.5rem;display: inline-block;" onclick="ran()">&nbsp;获取验证码</a>
+            </p>
+            <p>
+                <span class="fl" >验证码：</span>
+                <input type="text" value="输入6位验证码">
+            </p>
+        </div>
+        <div id="next">
+            <em>下一步</em>
+        </div>
+    </div>
+    <!--修改手机2-->
+    <div class="content" id="content3">
+        <div class="top">
+            <p>
+                <span class="fl"  style="font-size: .75rem;">新手机：</span>
+                <input type="text" value=" 输入有效手机号" class="sp">
+                <a href="###" class="fr" onclick="ran()">获取验证码</a>
+            </p>
+            <p>
+                <span class="fl" style="font-size: .75rem;">新手机验证码：</span>
+                <input type="text" value="输入6位验证码">
+            </p>
+        </div>
+        <div id="return">
+            <em>确定</em>
+        </div>
+    </div>
+    <script src="./js/personal data.js"></script>
+    <script>
+        // 随机获取验证码
+        function getr(min,max){
+            return Math.floor(Math.random() * (max - min+1))+min;
+        }
+        var rand = getr(1,100);
+        function ran(){
+            
+            alert(rand+'756');
+        }
+
+
+    </script>
+</body>
+</html>

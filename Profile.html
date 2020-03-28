@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 移动端必须要写的 -->
+    <!-- <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0"> -->
+    <title>我的收货地址</title>
+   <link rel="stylesheet" href="css/common.css">   
+   <link rel="stylesheet" href="css/Profile.css">   
+   <script src="js/jquery-1.8.3.js"></script>
+<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+    <header>
+        <a href="perso.html">
+            <img src="img/back.png">
+        </a>
+        <p>我的收货地址</p>
+    </header>
+    <div class="content">
+		<div class="list" id="list1">
+			<p>葛小伦<span>13800138000</span></p>
+			<font style="color: #878787;margin-left: 15px;">北京市 朝阳区 汤立路天通中苑二区40栋101室</font>
+			<a href="#" id="bth3"><svg t="1583485693983" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3968" width="200" height="200"><path d="M558.096874 509.244236l278.304494-276.863678c13.159718-13.094226 13.226233-34.31248 0.132006-47.472198-13.123902-13.189394-34.305317-13.226233-47.465035-0.132006L510.692215 461.669708 234.740302 184.877661c-13.062504-13.093203-34.310434-13.159718-47.470151-0.066515-13.129019 13.093203-13.160741 34.342156-0.066515 47.501874l275.885398 276.725532L184.918593 785.733385c-13.160741 13.094226-13.226233 34.310434-0.134053 47.472198 6.54609 6.581905 15.172561 9.900487 23.799032 9.900487 8.56098 0 17.125029-3.252067 23.672142-9.768481l278.236955-276.761348 278.473339 279.31245c6.54609 6.582929 15.142885 9.871835 23.768333 9.871835 8.594749 0 17.155728-3.288906 23.701818-9.80532 13.123902-13.093203 13.159718-34.305317 0.066515-47.465035L558.096874 509.244236 558.096874 509.244236zM558.096874 509.244236" p-id="3969"></path></svg></a>
+			<hr style="width: 382px;height: 0; border: 1px solid #000;border-top: none;" />
+			<a href="#"><img id="recommend_btn"  src="img/mr.png" style="margin-left: 16px;margin-top: 14px;float: left;"></a>
+			<p  id="recommendwz_btn" style="float: left;padding-top: 13px;">已设为默认</p>
+			<span style="float: right;margin-right: 19px;">编辑</span>
+		</div>
+		<div class="list" style="margin-top: 11px;" id="list2">
+			<p>葛小伦<span>13800138000</span></p>
+			<font style="color: #878787;margin-left: 15px;">北京市 朝阳区 汤立路天通中苑二区40栋101室</font>
+			<a href="#" id="bth4"><svg t="1583485693983" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3968" width="200" height="200"><path d="M558.096874 509.244236l278.304494-276.863678c13.159718-13.094226 13.226233-34.31248 0.132006-47.472198-13.123902-13.189394-34.305317-13.226233-47.465035-0.132006L510.692215 461.669708 234.740302 184.877661c-13.062504-13.093203-34.310434-13.159718-47.470151-0.066515-13.129019 13.093203-13.160741 34.342156-0.066515 47.501874l275.885398 276.725532L184.918593 785.733385c-13.160741 13.094226-13.226233 34.310434-0.134053 47.472198 6.54609 6.581905 15.172561 9.900487 23.799032 9.900487 8.56098 0 17.125029-3.252067 23.672142-9.768481l278.236955-276.761348 278.473339 279.31245c6.54609 6.582929 15.142885 9.871835 23.768333 9.871835 8.594749 0 17.155728-3.288906 23.701818-9.80532 13.123902-13.093203 13.159718-34.305317 0.066515-47.465035L558.096874 509.244236 558.096874 509.244236zM558.096874 509.244236" p-id="3969"></path></svg></a>
+			<hr style="width: 382px;height: 0; border: 1px solid #000;border-top: none;" />
+			<a href="#"><img  id="recommend_btn2" src="img/xjk.png" style="margin-left: 16px;margin-top: 14px;float: left;"></a>
+			<p id="recommendwz_btn2"  style="float: left;padding-top: 13px;">设为默认</p>
+			<span style="float: right;margin-right: 19px;">编辑</span>
+		</div>
+		<div class="list" style="margin-top: 11px;"  id="list3">
+			<p>葛小伦<span>13800138000</span></p>
+			<font style="color: #878787;margin-left: 15px;">北京市 朝阳区 汤立路天通中苑二区40栋101室</font>
+			<a href="#"  id="bth5"><svg t="1583485693983" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3968" width="200" height="200"><path d="M558.096874 509.244236l278.304494-276.863678c13.159718-13.094226 13.226233-34.31248 0.132006-47.472198-13.123902-13.189394-34.305317-13.226233-47.465035-0.132006L510.692215 461.669708 234.740302 184.877661c-13.062504-13.093203-34.310434-13.159718-47.470151-0.066515-13.129019 13.093203-13.160741 34.342156-0.066515 47.501874l275.885398 276.725532L184.918593 785.733385c-13.160741 13.094226-13.226233 34.310434-0.134053 47.472198 6.54609 6.581905 15.172561 9.900487 23.799032 9.900487 8.56098 0 17.125029-3.252067 23.672142-9.768481l278.236955-276.761348 278.473339 279.31245c6.54609 6.582929 15.142885 9.871835 23.768333 9.871835 8.594749 0 17.155728-3.288906 23.701818-9.80532 13.123902-13.093203 13.159718-34.305317 0.066515-47.465035L558.096874 509.244236 558.096874 509.244236zM558.096874 509.244236" p-id="3969"></path></svg></a>
+			<hr style="width: 382px;height: 0; border: 1px solid #000;border-top: none;" />
+			<a href="#"><img id="recommend_btn3"  src="img/xjk.png" style="margin-left: 16px;margin-top: 14px;float: left;"></a>
+			<p id="recommendwz_btn3" style="float: left;padding-top: 13px;">设为默认</p>
+			<span style="float: right;margin-right: 19px;">编辑</span>
+		</div>
+		<div align="center">
+			<input type="button" value="新增收货地址" id="bth1">
+		</div>
+	</div>
+	<div class="xz">
+	</div>
+	<div class="address">
+		<p class="atop">新增收货地址</p>
+		<div class="i-box">
+			<input type="text" placeholder="联系人"style="border-right: 1px solid #E3E3E3;">
+			<input type="telephone" placeholder="联系电话" maxlength="11" min="0" style="width: 164px;"  onkeyup="value=value.replace(/[^0-9]/g,'')">
+		</div>
+		<div class="dq">
+			<p>选择地区</p>
+			<a href="#"><img src="img/advance.png" style="height: 15px;"></a>
+		</div>
+		<input type="text" placeholder="详细地址(街道,小区,乡镇)" class="xdz">
+		<div align="center">
+			<input type="button" value="保存" id="bth2" onclick="display_alert()">
+		</div>
+		<script>
+			function display_alert()
+					  {
+					  alert("保存成功")
+					  }
+		</script>
+	</div>
+	<div class="remove">
+		<div class="r-top">
+			确定要删除该地址？
+		</div>
+		<a href="#" style="border-right: 1px solid #E3E3E3;" id="bth6">确定</a>
+		<a href="#" style="width: 164px;color: #DD3E34;" id="bth7">取消</a>
+	</div>
+
+	<script src="js/profile.js"></script>
+</body>
+</html>

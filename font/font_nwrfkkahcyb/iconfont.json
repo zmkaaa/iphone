@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "338378",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "446580",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "706845",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1203711",
+      "name": "余额",
+      "font_class": "keyongyue",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "4322608",
+      "name": "升级礼金",
+      "font_class": "shengjilijin",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "4539912",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "6997493",
+      "name": "我 的",
+      "font_class": "wodedangxuan",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "8875707",
+      "name": "收货地址",
+      "font_class": "shouhuodizhi",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "9231517",
+      "name": "抖音特效",
+      "font_class": "douyintexiao",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "12550350",
+      "name": "个人信息",
+      "font_class": "gerenxinxi-",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小程序</title>
+    <link rel="stylesheet" href="css/xuanzediqu.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/comment.css">
+
+    
+</head>
+<body>
+   <div class="box">
+    <div class="top">
+        <div class="top1">
+          <a href="../手机页面/yanhuobaoming.html"> <h5>&lt;</h5></a>
+           <p>报名信息</p>
+        </div>
+        <div class="top2">
+           <span class="iconfont icon-caidan"></span>
+           <h4>|</h4>
+           <span class="iconfont icon-liangquan"style="margin-top:-1rem;margin-left:2.3rem;"></span>
+        </div>
+    </div>
+    <div class="center">
+        <img src="img/tu.png" alt="">
+        <div class="center1">
+        <p>微信号:</p>
+        <h5>Gexiaolun</h5>
+        </div>
+
+        <div class="center1">
+        <p>手机号:</p>
+        <h5>获取手机号</h5>
+        </div>
+    </div>
+    <div class="zhong">
+        <div class="center1">
+            <p>收货地址:</p>
+            <input type="button" style="width: ;" value="选择地区" id="btn">
+            <div class="boxx" id="boxx">
+                <span id="span">X</span>
+                <div class="boxx1">
+                    <input type="submit" class="q" value="取消">
+                    <a href="../手机页面/yanzhengma.html"><input type="submit" class="w" value="完成"></a> 
+                </div>
+                <div class="boxx2">
+                    <input type="text" class="e" list="zz">
+                <datalist id="zz">
+                    <option value="朝阳区">北京市</option>
+                    <option value="大兴区">北京市</option>
+                    <option value="通州区">北京市</option>
+                </datalist>
+
+
+                <input type="text" class="e" list="zz" style="margin-top: 10px;">
+                <datalist id="zz">
+                    <option value="朝阳区">天津市</option>
+                    <option value="大兴区">天津市</option>
+                    <option value="通州区">天津市</option>
+                </datalist>
+
+                <input type="text" class="e" list="zz" style="margin-top: 10px;">
+                <datalist id="zz">
+                    <option value="保定市">河北省</option>
+                    <option value="大兴区">河北省</option>
+                    <option value="通州区">河北省</option>
+                </datalist>
+
+
+	
+                </div>
+                </div>
+                
+            <script>
+                var oBtn = document.getElementById('btn');
+                var oBoxx = document.getElementById('boxx');
+                var oSpan = document.getElementById('span');
+            
+                    oBtn.onclick = function (){
+                        oBoxx.style.display = 'block'
+                    }
+                    oSpan.onclick = function (){
+                        oBoxx.style.display = 'none'
+                    }
+                </script>
+            </div>
+            
+            <div class="center1">
+            <p>抖音名称:</p>
+            <h5>输入抖音名称</h5>
+            </div>
+    
+            <div class="center1">
+            <p>粉丝数量:</p>
+            <h5>输入粉丝数量</h5>
+            </div>
+    
+            <div class="center1">
+            <p>抖音链接:</p>
+            <h5>输入抖音链接</h5>
+            </div>
+    </div>
+    <div class="zhong2">
+        <p>账户简介</p>
+        <input type="text" value="在这里输入简历">
+    </div>
+   </div> 
+</body>
+
+</html>

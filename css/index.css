@@ -1,0 +1,154 @@
+
+/*head部分*/
+.head{ 
+    width: 100%;
+    height: 2.55rem;
+    background: #FFFFFF;
+    position: relative;
+}
+.head p{
+    font-size: .75rem;
+    line-height: 2.55rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*content部分*/
+.content{
+    padding: 0 .6rem;
+    
+    background: #EEEEEE;
+    position: relative;
+}
+
+.content h3{
+    font-size: 0.8rem;
+    color: #DD3E34; 
+    padding-top: 1.1rem;
+    margin-bottom: .8rem;
+}
+.content .ctn1{
+    
+    height: 17rem;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: .55rem;
+}
+.content .ctn1 .img{
+  
+    height: 11rem;
+    margin-bottom: .925rem;
+}
+.content .ctn1 .img img{
+    width: 100%;
+    height: 11rem;
+    border-radius: 5px;
+}
+.content .ctn1 p{
+    font-size: .75rem;
+    line-height: 1.4rem;
+    padding-left: .775rem;
+}
+.content .ctn1 p a{
+    color: black;
+}
+.content .ctn1 p a:hover{
+    color: red;
+}
+.content .ctn1 span{
+    padding-left: .775rem;
+    font-size: .5rem;
+    color: #888888;
+}
+.content .ctn1 em{
+    font-size: .5rem;
+    color: #888888;
+    font-style: normal;
+    margin-right: .375rem;
+    float: right;
+    margin-top: .55rem;
+    padding-right: .65rem;
+}
+.content .ctn1 i{
+    font-size: .5rem;
+    color: red;
+    font-style: normal;
+}
+
+
+
+
+/*footer部分*/
+@keyframes bounce-up {  
+    25% {  
+        transform: translateY(6px);  
+    }  
+    50%, 100% {  
+        transform: translateY(0);  
+    }  
+    75% {  
+        transform: translateY(-6px);  
+    }  
+}  
+   
+.animate-bounce-up{  
+    -webkit-animation: bounce-up 1.4s linear infinite;  
+    animation: bounce-up 1.4s ease-in infinite;  
+}
+#fot{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+.footer{
+    margin: 0 .6rem;
+}
+footer{
+    margin-top: .4rem;
+    height: 2.5rem;
+}
+footer .f1{
+    margin-left: .5rem;
+    text-align: center;
+    height: 1.85rem;
+}
+footer .f2{
+    margin-right: .5rem;
+    text-align: center;
+    height: 1.85rem;
+
+    
+}
+footer .f3{
+    margin-left: .5rem;
+    text-align: center;
+    height: 1.85rem;
+}
+.f1 a,.f2 a{
+    margin-top: -0.5rem;
+    font-size: .7rem;
+    color: black;
+}
+.f3 a{
+    font-size: .7rem;
+}
+.active{
+    color: #DD3E34;
+}
+.f1 a:hover{
+    color: #DD3E34;
+}
+.f2 a:hover{
+    color: #DD3E34;
+}
+.f3 a:hover{
+    color: #DD3E34;
+}
+.f1:hover{
+    color: #DD3E34;
+}
+.f2:hover{
+    color: #DD3E34;
+}
+/* end */

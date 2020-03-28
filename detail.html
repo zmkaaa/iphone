@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <title>小程序</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/detail.css">
+    <link rel="stylesheet" href="Swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">    
+    <script src="https://unpkg.com/swiper/js/swiper.js"> </script>  
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+    <link rel="stylesheet" href="font/font_f7xvlf6ynke/iconfont.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" />
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="syalert/syalert.min.css" />
+    <script src="syalert/syalert.min.js"></script>
+    <script>
+         window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+    </script>
+</head>
+<body>
+
+<!--头部-->
+    <div class="head">
+        <a href="index.html"><span class="iconfont icon-jiantou" style="margin-top: -10px;"></span></a>
+        <p>商品详情</p>
+        
+    </div>
+
+
+
+<!--内容区域conter部分-->
+   <div class="content">
+
+        <div class="ctn1">
+            <div class="top">
+                <div class="img">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <img src="img/data1.png" alt="">
+                            </div>
+                          <div class="swiper-slide">
+                            <img src="img/deta2.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/data3.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/data4.jpg" alt="">
+                          </div>
+                        </div>
+                        
+                      </div>
+                    
+                      <script>
+                        var mySwiper = new Swiper('.swiper-container', {
+                          autoplay:true,//等同于以下设置
+                          autoplay: {
+                            delay: 2000,
+                            stopOnLastSlide: false,
+                            disableOnInteraction: true,
+                            },
+                        });
+                        </script>
+                </div>
+                <p>卡尔适大理石茶几电视台柜组合小户型实木茶几地柜组合</p>
+                <span>10月01日 00：00- 10月08日 00:00</span>
+            </div>
+            <div class="fot">
+                <span class="iconfont icon-taoicon">
+                    <img src="img/tao.png" alt="">
+                </span>
+                <i>狄普旗舰店</i><em>视频制作费：<i style="color: red;">￥50-￥100</i></em>
+            </div>
+        </div>
+
+        <div class="ctn2">
+            <h2><img src="img/hongtiao.png"></img>详细信息</h2>
+            <ul>
+                <li style="padding-left: .95rem;" >推广平台：抖音</li>
+                <li style="margin-left: 3.225rem;">粉丝要求：2000以上</li>
+                <li style="padding-left: .95rem;">产品价格：￥300.00</li>
+                <li style="padding-left: 1.775rem;">佣金价格：￥30.50</li>
+                <li style="padding-left: .95rem;">寄样验货：150份</li>
+            </ul>
+        </div>
+
+
+        <div class="ctn3">
+            <p style="padding-left: .55rem;">“这里是亮点介绍，这里是亮点介绍，这里是亮点介绍，这里是亮点介绍，这里是亮点介绍，”</p>
+        </div>
+
+
+        <div class="ctn4">
+            <h2 style="margin-bottom: .9rem;"><img src="img/hongtiao.png"></img>拍摄要求</h2>
+            <p style="padding: 0 .6rem;">
+                是对实地拍摄的记录，是由场记负责完成的记录整个拍摄过程的剧本形式，
+                是场记的工作台本，主要为后期编辑时提供依据，其形式与分镜头剧本近似，
+                内容包括镜头顺序、景别、摄法、画面内容、台词、每个镜头的拍摄次数、
+                每次拍摄的时间长度及效果等等。在拍摄中，导演常常临时改变分镜头剧本，
+                所以，实拍镜头记录本才同拍成的影片镜头相一致。
+            </p>
+        </div>
+
+
+        <div class="ctn5">
+            <h2 style="margin-bottom: .9rem;"><img src="img/hongtiao.png"></img>产品介绍</h2>
+            <div class="img">
+                <img src="img/detail-4.png" alt="">
+            </div>
+            <p style="padding: 0 .6rem;">
+                品牌卡尔适CARZZI型号: 2136材质木木质材质橡木风格:简约现代形状:
+                方形安装方式:组装颜色分类:茶几电视柜茶几+电视柜饰面材质:大理石是否可伸缩:
+                不可伸缩结构工艺:木质工艺木质结构工艺:其他是否可定制:否是否带滚轮:否门数量:
+                 2门是否带储物空间:是可送货/安装:上海东莞市北京
+            </p>
+
+            <div class="link">
+                <h5>推广链接</h5>
+                <p>https://org.modao.cc/ app/hgaoi1o8hpek14sf
+                    5qj</p>
+               <form action="">
+                    <input type="button" name="" id="" value="点此一键复制" onclick="b()">
+               </form>
+            </div>
+        </div>
+        <script>
+            function b(){
+                alert('复制成功！');
+            }
+        </script>
+
+
+        <div class="ctn6">
+            <h5>规则说明</h5>
+            <p style="padding: 0 .6rem;">
+                品牌:卡尔适CARZZI型号: 2136材质:木木质材质:
+                橡木风格:简约现代形状:方形安装方式:组装颜色分类:茶几电视柜茶几
+                +电视柜饰面材质:大理石是否可伸缩:不可伸缩结构工艺:木质工艺木质结构工艺
+                :其他是否可定制:否是否带滚轮:否门数量: 2门是否带储物空间:是可送货/安装:
+                上海东莞市北京广州市深圳市青岛市佛山市产地:广东省地市:佛山市区县:顺德区
+                是否组装:组装包装体积: 3是否可预售:是出租车是否可运输:否茶几角形状
+                :方形设计元素:大师设计款式定位:品质奢华型安装说明详情。
+            </p>
+        </div>
+
+   </div>
+
+
+
+<!--尾部footer部分-->
+   <div class="footer">
+    <div class="f1">
+        <h3 id="btn" style="text-align: center;" onClick="syalert.syopen('alert1')">报名</h3>
+    </div>
+    
+    <div class="f2">
+        <p>已有126人参与，<a href="look over.html">查看全部  &gt</a></p>
+        <div class="img">
+            <img src="img/detail-fo.png" alt="">
+            <img src="img/detail-fo.png" alt="">
+            <img src="img/detail-fo.png" alt="">
+            <img src="img/detail-fo.png" alt="">
+            <img src="img/detail-fo.png" alt="">
+            <img src="img/detail-fo.png" alt="" style="margin-right:0;">
+        </div>
+    </div>
+
+    <div class="f3">
+        <a href="">分享给好友</a>
+    </div>
+</div>
+   
+
+     
+
+  <!--弹窗--> 
+
+  <div class="sy-alert animated" sy-enter="zoomIn" sy-leave="zoomOut" sy-type="confirm" sy-mask="true" id="alert1">
+    <div class="sy-title">你还不是响亮会员</div>
+    <div class="sy-content">成为会员可一键参与报名活动</div>
+    <div class="sy-btn">
+      <button onClick="syalert.syhide('alert1')">取消</button>
+      <a href="chengweihuiyuan.html"><button onClick="ok('alert1')" style="color: red;">成为会员</button></a>
+    </div>
+  </div>
+
+   <div class="sucess" id="case">
+    <p>您的申请已成功</p>
+    <span>商家审核后会寄样品给您,请按时</span>  
+    <span>完成视频拍摄任务以获取奖励</span>
+    <div class="xuan">
+        <input type="button" value="我知道了" style="border-right: 1px solid #ccc;" id="sure"> 
+    </div>
+   </div>
+
+
+
+
+
+
+
+<script>
+function ok(id){
+	syalert.syhide(id);	
+} 
+;
+      var oCase = document.getElementById('case');
+      var oSure = document.getElementById('sure');
+      
+       
+        oSure.onclick = function (){
+            oLogin.style.display = 'none'
+            oCase.style.display = 'none'
+        }
+
+
+        
+     
+</script>
+   
+<script src="Swiper/js/swiper.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小程序</title>
+    <link rel="stylesheet" href="./css/document2.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./font/font_pc163vieres/iconfont.css">
+    <link rel="stylesheet" href="./font/font_cy7mnmz0ulc/iconfont.css">
+    <script>
+        window.onload = window.onresize = function(){		 
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+            //找到标签名为html的第一个
+            var _html = document.getElementsByTagName('html')[0];
+            //如果屏幕宽度大于640 
+            //就用 640/16=40
+            //小于640的时候 不确定 也是尺寸/40
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+            //最大网页尺寸640 
+            //最大字体（根字体大小） 40
+        }
+    </script>
+</head>
+<body>
+    <div class="box3">
+        <div class="top">
+            <span><a href="documen.html">&lt;</a></span>
+            <p>提现记录</p>
+            <div class="imger">
+                <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+                <span>|</span>
+                <span class="iconfont icon-yuandian shift"></span>
+            </div>
+        </div>
+        <div class="bottom">
+            <ul>
+                <li>当前余额：<span>￥130.00</span></li>
+                <li>提现余额：<input type="text" value="提现金额"></li>
+            </ul>
+        </div>
+        <div class="input">
+            提交申请
+        </div>
+    </div>
+</body>
+</html>

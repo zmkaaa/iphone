@@ -1,0 +1,61 @@
+body{
+    background: #F3F3F3;
+}
+header{
+    height: 51px;
+    background: #FFF;
+    border-bottom: 1px solid #F3F3F3;
+    position: relative;
+    text-align: center;
+}
+header img{
+    height: 15px;
+    position: absolute;
+    left: 15px; top: 20px;
+}
+header p{
+    font-size: 16px;
+    line-height: 51px;
+}
+
+
+.tab{
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid #F3F3F3;
+    background: #FFF;
+}
+.tab-hd{
+    height: 53px;
+}
+.tab-hd li{
+    float: left;
+    font-size: 15px;
+    width: 25%;
+    text-align: center;
+}
+.active{
+    color: #DD3E34;
+    font-weight: bold;
+    border-bottom: 4px solid #DD3E34;
+}
+.list li{
+    height: 110px;
+    margin-top: 10px;
+    background: url(../img/advance.png)   #FFF  no-repeat  center  right 3%;
+}
+.list li a{
+    color: #000;
+}
+.list li p{
+    width: 78%;
+    font-size: 15px;
+    line-height: 22px;
+    margin-left: 18px;
+    padding-top: 20px;
+}
+.list li span{
+    font-size: 13px;
+    margin-left: 18px;
+    line-height: 12px;
+}

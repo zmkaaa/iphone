@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小程序</title>
+    <link rel="stylesheet" href="css/yanzhengma.css">
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+        <a href="../手机页面/yuanzesiqu.html"><h5>&lt;</h5></a>
+        <p class="p1">验证手机号</p>
+    </div>
+        <p class="p2">手机号码：</p>
+        <input type="password" value="请输入手机号" id="btn1" class="b">
+        <div id="btn2"class="a">获取验证码</div>
+        <span>验证码：</span>
+        <input type="password" value="请输入手机号" id="btn1" class="b">
+        <input type="submit" value="确定" class="c">
+    </div>
+</body>
+<script>
+    var obtn1 =document.getElementById('btn1');
+    var obtn2 =document.getElementById('btn2');
+    var timer = null;
+    var n=61;
+    obtn2.onclick = function (){
+        obtn2.style.background = 'pink'
+        timer=setInterval(function(){
+            n--;
+            obtn2.innerHTML=n+'s后再次获取';
+            if(n<=0){
+                obtn2.innerHTML="验证手机号";
+            }
+        },1000)
+    }
+
+</script>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 移动端必须要写的 -->
+    <!-- <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0"> -->
+    <title>我的推广订单-已完成</title>
+   <link rel="stylesheet" href="css/common.css">   
+   <link rel="stylesheet" href="css/underway.css">   
+<script>
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</head>
+<body>
+    <header>
+        <a href="order.html">
+            <img src="img/back.png">
+        </a>
+        <p>我的推广订单</p>
+    </header>
+    <div class="content">
+        <img src="img/u-banner.jpg" style="width: 100%;">
+        <div class="tsb">
+            <p>卡尔适大理石茶几电视柜组合小户型实木茶几地柜组合</p>
+			<span>已审核成功，请等待卖家发货，有疑问可联系卖家。</span>
+        </div>
+		<div class="jd">
+			<h2>进度状态</h2>
+			<p>审核未通过<span style="margin-right: 16px;font-size: 10px;" class="fr">2019.10.01 12:00</span></p>
+			<font style="font-size: 13px;color: #ccc;margin-left: 36px;">您的审核未通过，请再接再厉</font>
+		</div>
+		<div class="jd2">
+			<h2>进度状态</h2>
+			<img src="img/hd.png" />
+			<div class="sx"></div>
+			<img src="img/hd.png" style="margin-top:0;"/>
+			<p class="p1">审核通过<span>2019.09.30 12:00</span></p>
+			<font class="f1">您的审核已通过，待卖家发货。</font>
+			<p class="p2">卖家已发货<span>2019.09.30 15:00</span></p>
+			<font class="f2">卖家已发货，中通快递：256984652233</font>
+			<div align="center">
+				<input type="submit" class="s1" value="已收到货,上传视频链接"/>
+			    <input type="submit" class="s2" value="未收到货,平台介入"/>
+			</div>
+		</div>
+		<div class="jd3">
+			<h2>进度状态</h2>
+			<div class="jd-left">
+				<img src="img/hd.png" />
+				<div class="sx2"></div>
+				<img src="img/hd.png" />
+				<div class="sx2"></div>
+				<img src="img/hd.png" />
+				<div class="sx2"></div>
+				<img src="img/hd.png" />
+				<div class="sx2"></div>
+				<img src="img/hd.png" />
+				<div class="sx2"></div>
+				<img src="img/hd.png" />
+				<div class="sx2"></div>
+				<img src="img/hd.png" />
+				<div class="sx2"></div>
+				<img src="img/hd.png" />
+			</div>
+			<div class="jd3-right">
+				<p>审核通过<span>2019.09.30 12:00</span></p>
+				<font>您的审核已通过，待卖家发货。</font>
+				<p style="margin-top: 40px;">卖家已发货<span>2019.09.30 15:00</span></p>
+				<font>卖家已发货，中通快递：256984652233</font>
+				<p style="margin-top: 42px;">已收货<span>2019.10.07 10:00</span></p>
+				<font>卖家已发货，中通快递：256984652233</font>
+				<p style="margin-top: 41px;">视频审核中<span>2019.10.08 15:00</span></p>
+				<font>卖家已发货，中通快递：256984652233</font>
+				<p style="margin-top: 42px;">视频审核未通过<span>2019.10.09 12:00</span></p>
+				<font>卖家已发货，中通快递：256984652233</font>
+				<p style="margin-top: 42px;">视频审核中<span>2019.10.20 15:00</span></p>
+				<font>卖家已发货，中通快递：256984652233</font>
+				<p style="margin-top: 42px;">视频已通过<span>2019.10.21 12:00</span></p>
+				<font>卖家已发货，中通快递：256984652233</font>
+				<p style="margin-top: 42px;">已完成<span>2019.10.22 10:00</span></p>
+				<font>卖家已发货，中通快递：256984652233</font>
+			</div>
+		</div>
+    </div>
+</body>
+</html>

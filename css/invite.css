@@ -1,0 +1,63 @@
+header{
+    height: 51px;
+    background: #FFF;
+    border-bottom: 1px solid #F3F3F3;
+    position: relative;
+    text-align: center;
+}
+header img{
+    height: 15px;
+    position: absolute;
+    left: 15px; top: 20px;
+}
+header p{
+    font-size: 16px;
+    line-height: 51px;
+}
+.tab-hd{
+	height: 53px;
+	font-size: 15px;
+	border-bottom: 1px solid #E8E8E8;
+}
+.tab-hd li{
+	float: left;
+	width: 50%;
+	text-align: center;
+	line-height: 53px;
+}
+.tab-hd .active{
+	display: block;
+	height: 50px;
+	color: #DD3E34;
+	border-bottom: 4px solid #DD3E34;
+}
+.list li{
+	height: 69px;
+	line-height: 69px;
+	position: relative;
+}
+.list li p{
+	position: absolute;
+	left: 6%;
+	font-size: 12px;
+}
+.list hr{
+	margin: 0  auto;
+}
+.list li img {
+	width: 47px;
+	height:47px;
+	position: absolute;
+	top: 15%;  left: 12%;
+	border-radius: 5px;
+}
+.list li span{
+	font-size: 13px;
+	float: right;
+	margin-right:7% ;
+}
+.list li .f{
+	font-size: 13px;
+	position: absolute;
+	left: 25%;
+}

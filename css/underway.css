@@ -1,0 +1,168 @@
+body{
+	width: 100%;
+    background: #F3F3F3;
+}
+header{
+    height: 51px;
+    background: #FFF;
+    border-bottom: 1px solid #F3F3F3;
+    position: relative;
+    text-align: center;
+}
+header img{
+    height: 15px;
+    position: absolute;
+    left: 15px; top: 20px;
+}
+header p{
+    font-size: 16px;
+    line-height: 51px;
+}
+
+.tsb{
+    height: 118px;
+    background: #FFF;
+}
+.tsb p{
+    font-size: 18px;
+	font-weight: bold;
+    padding-top: 30px;
+    margin-left: 15px;
+    margin-right: 21px;
+    line-height: 28px;
+}
+.tsb span{
+	display: block;
+    font-size: 13px;
+    color: #E51C23;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.jd{
+	height: 168px;
+	margin-top: 10px;
+	background: #FFF;
+}
+.jd h2{
+	padding-top: 25px;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.jd p{
+	font-size: 17px;
+	margin-top: 31px;
+	margin-left: 17px;
+	padding-left: 29px;
+	background: url(../img/hd.png) no-repeat center left;
+}
+.jd2{
+	height: 466px;
+	margin-top: 10px;
+	background: #FFF;
+	position: relative;
+}
+.jd2 h2{
+	padding-top: 25px;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.jd2 img{
+	margin-top: 34px;
+	margin-left: 17px;
+}
+.sx{
+	width: 0;
+	height: 50px;
+	margin-left: 25px;
+	border-left: 2px solid #DD3E34;
+}
+.jd2 p{
+	font-size: 17px;
+}
+.jd2 font{
+	font-size: 12px;
+}
+.p1{
+	width: 90%;
+	position: absolute;
+	left: 38px;   top: 81px;
+}
+.p1 span{
+	float: right;
+	margin-right: 16px;
+}
+.p2 span{
+	float: right;
+	margin-right: 16px;
+}
+.p2{
+	width: 90%;
+	position: absolute;
+	left: 38px;  top: 148px;
+}
+.f1{
+	position: absolute;
+	left: 38px; top: 112px;
+}
+.f2{
+	position: absolute;
+	left: 38px; top: 180px;
+}
+.s1{
+	width: 92%;
+	height: 50px;
+	background: #DD3E34;
+	border: 1px solid #DD3E34;
+	border-radius: 3px;
+	margin-top: 60px;
+	color: #FFF;
+}
+.s2{
+	width: 92%;
+	height: 50px;
+	margin-top: 20px;
+	border: 1px solid #C3C3C3;
+	border-radius: 3px;
+}
+.jd3{
+	height: 900px;
+	margin-top: 10px;
+	background: #fff;
+}
+.jd3 h2{
+	padding-top: 25px;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.jd-left{
+	float: left;
+	width: 6%;
+	margin-top: 30px;
+}
+.jd-left img{
+	margin-left: 17px;
+}
+.sx2{
+	width: 0;
+	height: 80px;
+	margin-left: 25px;
+	margin-top: -16px;
+	border-left: 2px solid #DD3E34;
+}
+.jd3-right{
+	float: left;
+	width: 94%;
+	margin-top: 30px;
+}
+.jd3-right p{
+	font-size: 17px;
+	margin-left: 15px;
+}
+.jd3-right p span{
+	float: right;
+	margin-right: 10px;
+}
+.jd3-right font{
+	font-size: 12px;
+	margin-left: 15px;
+}
